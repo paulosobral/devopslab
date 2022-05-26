@@ -23,7 +23,7 @@ jobs:
         run:  pip install -r requirements.txt 
 
       - name: Install Requirements for Unit Test and Code Coverage
-        run:  pytest pytest-cov
+        run:  pip install pytest pytest-cov
 
       - name: Unit Test
         run: |
